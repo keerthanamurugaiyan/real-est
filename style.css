@@ -1,0 +1,127 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"); */
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.hov:hover{
+    /* cursor: pointer; */
+    color: rgb(26, 185, 26) !important;
+}
+
+.bgimage {
+    background-image: url(assets/banner.png);
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    background-position: 0%;
+}
+
+input::placeholder {
+    color: black !important;
+}
+
+.gridbg {
+    box-shadow: 0 0 20px 0 rgba(112, 121, 138, .18);
+    background-color: rgba(240, 248, 255, 0.616);
+    border-radius: 5%;
+}
+
+/* .card {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.877);
+} */
+
+.boxShadow {
+    box-shadow: 0 0 20px 0 rgba(112, 121, 138, .18);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    background: hsla(0, 0%, 100%, .1);
+    border-radius: 4% 50%;
+    color: #fff;
+    font-size: 32px;
+    height: 100px;
+    line-height: 100px;
+    margin: 50px auto auto;
+    width: 100px;
+}
+
+.smallFont {
+    font-size: smaller;
+}
+
+.tik {
+    margin-left: -30px !important;
+}
+
+.input-border {
+    border: 1px solid rgba(128, 128, 128, 0.315);
+
+}
+
+.overlay {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index:1;
+}
+
+.overlay::after {
+    background: rgba(15, 28, 47, .3);
+    border-radius: 5px;
+    height: 210px;
+    width: 340px;
+    content: "";
+    left: 0;
+    margin: 20px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+#relative {
+    position: relative;
+}
+.bgOpacity{
+    position:relative;
+    background-size: cover;
+    height: 280px;
+    width: 100%;
+    margin-top:50px;
+    background-position:center;
+    z-index:1;
+}
+
+.bgOpacity::after{
+    background:rgba(17,40,72,.629) !important;
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    height:280px;
+    width:100%;
+    z-index:-1;
+}
+.aboutBg{
+    background-image: url(assets/about.56e92b20e762df2fa5de.jpg);
+}
+
+.servicesBg{
+    background-image:url(assets/services.13be7fde05782bd5e2e8.jpg);
+}
+
+.pricingContactBg{
+    background-image: url(assets/pricing.4552ccf3b91e93029513.jpg);
+}
